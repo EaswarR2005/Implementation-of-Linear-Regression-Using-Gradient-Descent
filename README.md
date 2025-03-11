@@ -53,8 +53,25 @@ print(y)
 ![ex3_op3](https://github.com/user-attachments/assets/391b24a8-cfee-4a98-9427-ae446edfa878)
 
 ```
+X1_Scaled=scaler.fit_transform(X1)
+Y1_Scaled=scaler.fit_transform(y)
+print(X1_Scaled)
+print(Y1_Scaled)
+```
+![ex3_op4](https://github.com/user-attachments/assets/083f67fa-05ae-4301-b959-a4cd90b2d5eb)
+
+![ex3_op4 1](https://github.com/user-attachments/assets/18820886-5246-4bc4-9a36-0ca43ff8a198)
 
 ```
+theta=linear_regression(X1_Scaled,Y1_Scaled)
+New_data=np.array([165349.2,136897.8,471784.1]).reshape(-1,1)
+New_Scaled=scaler.fit_transform(New_data)
+prediction=np.dot(np.append(1,New_Scaled),theta)
+prediction=prediction.reshape(-1,1)
+pre=scaler.inverse_transform(prediction)
+print(f"Predicted Value: {pre}")
+```
+![ex3_op5](https://github.com/user-attachments/assets/c4e31142-315f-4685-88d8-298d98f1fe01)
 
 
 ## Result:
