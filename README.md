@@ -81,7 +81,7 @@ print(f"Predicted Value: {pre}")
 
 # Predicted Value:
 
-![EX_3_OUTPUT_5](https://github.com/user-attachments/assets/998fb07e-02e4-40fa-9415-6193b990bc8f)
+![Uploading EX_3_OUTPUT_5.png…]()
 
 
 ## Result:
