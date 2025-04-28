@@ -83,7 +83,8 @@ print(f"Predicted Value: {pre}")
 ![ex3_op4 1](https://github.com/user-attachments/assets/18820886-5246-4bc4-9a36-0ca43ff8a198)
 # Predicted Value:
 
-![ex3_op5](https://github.com/user-attachments/assets/c4e31142-315f-4685-88d8-298d98f1fe01)
+![image](https://github.com/user-attachments/assets/de33463a-dede-4496-9ab9-822f6aa69283)
+
 
 
 ## Result:
